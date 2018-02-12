@@ -1,0 +1,343 @@
+
+.block-product-card {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 85%;
+	height: 425px;
+	background-color: white;
+	margin: 50px 65px;
+}
+
+.block-product-card__huaracheimg {
+	position: absolute;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 425px;
+	margin: 0;
+	background-image: url("product_card.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ .block-product-card__closebutton {
+	position: absolute;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	margin-left: 720px;
+	background-color: white;
+	text-align: center;
+}
+
+
+.block-product-card__bigboots {
+	position: absolute;
+	display: inline-block;
+	width: 63%;
+	margin-top: 95px;
+	margin-left: 10px;
+}
+
+
+.block-product-card__boots1side,
+.block-product-card__boots2side,
+.block-product-card__bootsbackside  {
+	position: absolute;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 6.5%;
+	height: 40px;
+	border: solid 2px white;
+	background-color: #edeaec;
+}
+
+
+.block-product-card__boots1side {
+	margin-top: 360px;
+	margin-left: 180px;
+	background-image: url("boots_1side.png");
+	background-repeat: no-repeat;
+	background-size: 100% 40px;
+}
+
+.block-product-card__boots1side:hover {
+	opacity: 0.5;
+}
+
+.block-product-card__boots2side {
+	margin-top: 360px;
+	margin-left: 245px;
+	background-image: url("boots_2side.png");
+	background-repeat: no-repeat;
+	background-size: 100% 40px;
+}
+
+.block-product-card__boots2side:hover {
+	opacity: 0.5;
+}
+
+.block-product-card__bootsbackside {
+	margin-top: 360px;
+	margin-left: 315px;
+	background-image: url("boots_back.png");
+	background-repeat: no-repeat;
+	background-size: 100% 40px;
+}
+
+.block-product-card__bootsbackside:hover {
+	opacity: 0.5;
+}
+
+.block-product-card__new {
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: #ffa60d;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	width: 8%;
+	height: 25px;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 525px;
+	text-align: center;
+	line-height: 25px;
+}
+
+.block-product-card__therunnung {
+	display: inline-block;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	font-size: 24px;
+	width: 24%;
+	height: 60px;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 525px;
+	line-height: 1.3;
+}
+
+.block-product-card__colortext {
+	color: #4f83d4;
+}
+
+.block-product-card__huarach {
+	display: inline-block;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	font-size: 13px;
+	width: 7%;
+	height: 15px;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 525px;
+	background-color: white;
+}
+
+.block-product-card__blackstar1,
+.block-product-card__blackstar2,
+.block-product-card__blackstar3,
+.block-product-card__blackstar4,
+.block-product-card__greystar {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 1.3%;
+	height: 10px;
+	position: absolute;
+	background-color: white;
+	background-image: url("black-star.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 152px;
+}
+
+.block-product-card__blackstar1 {
+	margin-left: 585px;
+}
+
+ .block-product-card__blackstar2 {
+ 	margin-left: 600px;
+}
+
+.block-product-card__blackstar3 {
+	margin-left: 615px;
+}
+
+.block-product-card__blackstar4 {
+	margin-left: 630px;
+}
+
+.block-product-card__greystar {
+	margin-left: 645px;
+	background-image: url("grey-star.png");
+}
+
+.block-product-card__price {
+	display: inline-block;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-size: 22px;
+	width: 8%;
+	height: 25px;
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 525px;
+}
+
+.block-product-card__size {
+	display: inline-block;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-size: 13px;
+	width: 5%;
+	height: 20px;
+	position: absolute;
+	margin-top: 220px;
+	margin-left: 525px;
+}
+
+.block-product-card__7,
+.block-product-card__8,
+.block-product-card__9,
+.block-product-card__10,
+.block-product-card__11 {
+	display: inline-block;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-size: 16px;
+	width: 2.5%;
+	height: 16px;
+	position: absolute;
+	margin-top: 240px;
+	margin-left: 525px;
+}
+
+.block-product-card__7 {
+	margin-left: 525px;
+}
+
+.block-product-card__8 {
+	margin-left: 565px;
+}
+
+.block-product-card__9 {
+	margin-left: 605px;
+}
+
+.block-product-card__10 {
+	margin-left: 645px;
+}
+
+.block-product-card__11 {
+	margin-left: 690px;
+}
+
+.block-product-card__7:hover {
+	border: solid 1px black;
+	width: 3%;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+}
+
+.block-product-card__8:hover {
+	border: solid 1px black;
+	width: 3%;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+}
+
+.block-product-card__9:hover {
+	border: solid 1px black;
+	width: 3%;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+}
+
+.block-product-card__10:hover {
+	border: solid 1px black;
+	width: 3%;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+}
+
+.block-product-card__11:hover {
+	border: solid 1px black;
+	width: 3%;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+}
+
+.block-product-card__buttonadd {
+	display: inline-block;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 13px;
+	width: 16%;
+	height: 35px;
+	position: absolute;
+	margin-top: 285px;
+	margin-left: 525px;
+	background-color: #a200b8;
+	/* border: solid 1px black; */
+	text-align: center;
+	vertical-align:middle;
+	/* line-height: 35px; */
+}
+
+.block-product-card__buttonadd:hover {
+	opacity: 0.8;
+}
+
+.block-product-card__buttonwish {
+	display: inline-block;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	font-size: 13px;
+	width: 16%;
+	height: 35px;
+	position: absolute;
+	margin-top: 325px;
+	margin-left: 525px;
+	border: solid 1px black;
+	text-align: center;
+	vertical-align:middle;
+	background-color: white;
+}
+
+.block-product-card__buttonwish:hover {
+	background-color: #cbdaf2;
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+
+.block-main-Nikewhite {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	width: 65%;
+	height: 620px;
+	background-image: url("lilac_background.png");
+	background-repeat: no-repeat;
+	margin: 25px auto;
+	background-size: 100% 620px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.block-main-Nikewhite__logo {
+	position: absolute;
+	background-image: url("logo.png");
+	margin-top: 25px;
+	margin-left: 70px;
+	/* border: solid 1px white; */
+	width: 40px;
+	height: 20px;
+	background-repeat: no-repeat;
+}
+
+
